@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins";
+
+}
+body{
+    background-color: rgba(91, 71, 180, 0.075);
+
+}
+section{
+    padding: 0 2rem;
+}
+
+span{
+    color: rgb(97, 70, 232);
+}
+
+
+
+/* nav bar */
+
+.Navbar-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+.Navbar-con h3{
+    color: rgb(97, 67, 232);
+}
+.Navbar-con img{
+    padding-right: 0.5rem;
+    height: 27px;
+}
+.navBar-ops{
+    display: flex;
+    align-items: center;
+}
+.navBar-ops ul{
+    display: flex;
+    padding: 0 2rem;
+
+}
+.navBar-ops ul li{
+    padding:  0 2rem;
+}
+.navBar-ops ul li a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+}
+.navBar-btn{
+    padding: 0 1rem;
+}
+.navBar-btn .navbar-signin{
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: 2px solid rgb(53, 65, 232);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.navBar-btn .navbar-signup{
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: 2px solid rgb(53, 65, 232);
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    display: none;
+}
+.log-inpage{
+    display: flex;
+    flex-direction: column;
+}
+.log-inpage h1{
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+.log-inpage{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    border-radius: 0.4rem;
+    display: none;
+}
+
+.log-inpage form .Campus{
+    display: flex;
+    flex-direction: column;
+}
+
+.log-inpage form .Campus .campus-con{
+    border: 1px solid;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.log-inpage form .Campus .campus-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form input:focus{
+    outline: none;
+}
+.log-inpage form .Campus label{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.log-inpage form .StudentID .student-con{
+    border: 1px solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.log-inpage form .StudentID .student-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form .StudentID label{
+    font-size: 0.8rem;
+}
+.log-inpage form .password .password-con{
+    border: 1px solid;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+.log-inpage form .password .password-con input{
+    border: none;
+    width: 100%;
+}
+.log-inpage form .password label{
+    font-size: 0.8rem;
+}
+
+/* hero section */
+
+
+
+.hero-heading{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ 
+}
+.hero-heading .heroSsec{
+    width: 50%;
+}
+
+.hero-heading .heroSsec h1{
+    font-size: 3.2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.hero-heading .heroSsec p{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+.hero-heading .heroSsec .getspotbtn,.learnmorebtn{
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.hero-heading img{
+    height: 40rem;
+}
+.back-icon{
+    z-index: -1;
+    position: absolute;
+    opacity: 0.1;
+    top: -5rem;
+    left: -10rem;
+}
+/* second section */
+
+.secondsection{
+    padding-top: 5rem;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+.secondsection img{
+    height: 40rem;
+}
+
+.second-details h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.second-details .second-features{
+    padding-top: 2.5rem;
+    display: flex;
+    width: 80%;
+    gap: 5rem;
+}
+.second-details .second-features h3{
+    padding-bottom: 1rem;
+}
+.second-details .second-features p{
+    font-size: 0.9rem;
+}
+.background-image-second img{
+    position: absolute;
+    height: 25rem;
+    opacity: 0.1;
+    left: 78rem;
+    top: 35rem;
+    z-index: -1;
+}
+
+/* third section */
+
+.thirdSec{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    flex-direction: row-reverse;
+
+}
+
+.thirdSec img{
+    height: 28rem;
+    margin-left: -3rem;
+    padding-right: 1rem;
+}
+.thirdSec .third-details{
+    position: relative;
+    margin-left: 2rem;
+}
+.thirdSec .third-details h1{
+    font-size: 3rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.thirdSec .third-details p{
+    font-size: 0.9rem;
+}
+.thirdSec .third-details .third-features{
+    display: flex;
+    padding-top: 3rem;
+    width: 70%;
+    gap: 6rem
+}
+.third-features .third-features1 p{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+.third-features .third-features2 p{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+}
+.thirdSec .third-details .third-btn {
+    padding: 1rem 0;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.thirdSec .third-details .third-btn button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    font-weight: 600;
+}
+.back-icon-third{
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    left: -5rem;
+    top: 75rem;
+    height: 90rem;
+}
+
+/* fourth section */
+
+
+.fourthSec{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+    margin-top: 10rem;
+
+}
+.fourth-details h1{
+    font-size: 3rem;
+}
+
+.fourth-details .fourth-btn button{
+    margin-top: 2rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-right: 2rem
+}
+.fourthSec  .fourth-step{
+    display: flex;
+    margin-right: 3rem;
+    width: 50rem;
+}
+
+.fourthSec  .fourth-step .fourth-vertical{
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourthSec  .fourth-step .fourth-vertical img{
+    height: 2.5rem;
+}
+.fourthSec  .fourth-step .fourth-vertical .v1{
+    height: 50px;
+    width: 0;
+    border: 1px solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.fourthSec  .fourth-step ul{
+    position: relative;
+    top: -2rem;
+}
+.fourthSec  .fourth-step li{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.fourthSec  .fourth-step li h4{
+    margin-bottom: 1rem;
+}
+.fourthSec  .fourth-step li p{
+    font-size: 0.8rem;
+}
+.fourth-background-icon img{
+    position: absolute;
+    opacity: 0.2;
+    right: -4rem;
+    top: 125rem;
+    height: 25rem;
+    z-index: -1;
+}
+
+/* fifth section */
+
+
+.fifthsec{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.fifthsec h1{
+    font-size: 3rem;
+    padding-right: 30rem;
+    margin-bottom: 1rem;
+}
+.fifthsec .fifth-btn button{
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    margin-right: 2rem;
+}
+
+/* sixth */
+.sixsec{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sixsec .six-pricingTitle{
+    margin: 7rem 0 7rem 0;
+}
+.sixsec .six-pricingTitle h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.sixsec .six-pricingTitle p{
+    font-size: 0.9rem;
+}
+
+.sixsec .sic-pricingDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step{
+    display: flex;
+    gap: 2rem
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step ul li{
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img{
+    display: flex;
+    flex-direction: column;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+    height: 2rem;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container{
+    border: 2px solid;
+    padding: 1.5rem 1.3rem;
+    width: 36rem;
+   
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h4{
+    font-size: 1.2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h1{
+    font-size: 3rem;
+}
+hr{
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-p{
+    margin-top: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details ul{
+    line-height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li{
+    display: flex;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li img{
+    padding-right: 2rem;
+    height: 1.1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-btn button{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    font-weight: 500;
+}
+
+/* seventh */
+.sixsec{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sixsec .six-pricingTitle{
+    margin: 7rem 0 7rem 0;
+}
+.sixsec .six-pricingTitle h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.sixsec .six-pricingTitle p{
+    font-size: 0.9rem;
+}
+
+.sixsec .sic-pricingDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step{
+    display: flex;
+    gap: 2rem
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step ul li{
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img{
+    display: flex;
+    flex-direction: column;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-step .sic-pricingDetails-step-img img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+    height: 2rem;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container{
+    border: 2px solid;
+    padding: 1.5rem 1.3rem;
+    width: 36rem;
+   
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h4{
+    font-size: 1.2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-heading h1{
+    font-size: 3rem;
+}
+hr{
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-p{
+    margin-top: 1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details ul{
+    line-height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li{
+    display: flex;
+    align-items: center;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li p{
+    font-size: 0.9rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-details li img{
+    padding-right: 2rem;
+    height: 1.1rem;
+}
+.sixsec .sic-pricingDetails .sic-pricingDetails-container .sic-pricingDetails-container-btn button{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(97, 70, 232);
+    color: white;
+    font-weight: 500;
+}
+
+/* eigth section */
+.eighth-sec{
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 8rem;
+}
+.eighth-sec h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.eighth-sec p{
+    font-size: 0.9rem;
+}
+
+.eighth-sec .eighth-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eighth-sec .eighth-details ul li{
+    margin: 1rem 0 1rem 0;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+.eighth-sec .eighth-details ul li h4 img{
+    padding-right: 0.5rem;
+}
+.eighth-sec .eighth-details .eighth-details-image{
+    height: 40rem;
+}
+
+/* nineh section */
+.ninenthSec{
+    padding-top: 10rem;
+    flex-direction: row;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.ninenthSec .ninethSec-details ul{
+    display: flex;
+    justify-content: space-around;
+}
+.ninenthSec .ninethSec-details ul li{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0rem 0 6rem;
+    width: 10rem;
+}
+.ninenthSec .ninethSec-details ul li a{
+    font-size: 0.8rem;
+}
+
+.ninenthSec .ninethSec-sub h4{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ninenthSec .ninethSec-sub p{
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.ninenthSec .ninethSec-sub input{
+    font-size: 0.8rem;
+    margin-bottom:  0.2rem;
+    padding: 1rem 1.5rem;
+    padding-right: 7rem;
+    border: 2px solid;
+}
+.ninenthSec .ninethSec-sub button{
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border: 2px solid;
+}
+.ninenthSec .ninethSec-sub h6{
+    font-weight: 300;
+    width: 20rem;
+    margin-top: 1rem;
+}
+.ninenthSec hr{
+    margin-top: 4rem;
+    border: 1px solid;
+}
+.ninenthSec .nineth-footer{
+    margin-top: 1.5rem;
+    font-size: 0.7rem;
+}

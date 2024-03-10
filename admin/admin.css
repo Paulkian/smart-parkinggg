@@ -1,0 +1,283 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(233, 233, 233);
+}
+.container{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  
+}
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 110px;
+  height: 100vh;
+  overflow: hidden;
+  transition: all 0.2s linear;
+  background-color: rgb(113, 101, 186);
+  color: white;
+}
+nav:hover{
+  width: 270px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu li{
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+.menu li:hover{
+  background-color: #e0e0e07c;
+}
+
+.menu li a{
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu li a p{
+  overflow: hidden;
+  display: flex;
+
+}
+.menu li a img{
+  height: 1.2rem;
+  fill: white;
+}
+
+.logo h1{
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+
+.main-content{
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.main-top{
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+.main-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-body h1{
+  font-size: 1.3rem;
+}
+.main-body .profile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main-body .profile img{
+  height: 1.5rem;
+}
+.main-body .profile .profile-name h6{
+
+}
+.main-body .profile .profile-name p{
+  font-size: 0.6rem;
+  text-align: center;
+}
+.panel{
+  width: 100%;
+
+}
+.panel .panel-wrapper{
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.panel .panel-wrapper p{
+    font-weight: 600;
+}
+.panel .panel-wrapper .panel-main{
+  display: flex;
+  justify-content: center;
+}
+.panel .panel-wrapper .panel-main ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.panel .panel-wrapper .panel-main ul li{
+  background-color: rgb(250, 232, 234);
+  width: 20rem;
+  height: 12rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.panel .panel-wrapper .panel-main ul li h3{
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+.panel .panel-wrapper .panel-main ul li p{
+  margin-top: 3rem;
+}
+
+.panel .panel-wrapper .panel-main .btn-parking{
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+.panel .panel-wrapper .panel-main .btn-parking .parking-motor{
+  width: 100%;
+  background-color: rgb(113, 101, 186);
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.panel .panel-wrapper .panel-main .btn-parking .parking-motor:focus{
+  background-color: rgb(59, 41, 140);
+}
+
+.panel .panel-wrapper .panel-main .btn-parking .parking-car{
+  width: 100%;
+  background-color: rgb(113, 101, 186);
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.panel .panel-wrapper .panel-main .btn-parking .parking-car:focus{
+  background-color: rgb(59, 41, 140);
+}
+
+.panel .panel-wrapper .motor-view{
+  width: 100%;
+  background-color: rgb(253, 227, 255);
+  border-radius: 0.6rem;
+}
+
+.panel .panel-wrapper .car-view{
+  width: 100%;
+  background-color: rgb(253, 227, 255);
+  border-radius: 0.6rem;
+}
+.panel .panel-wrapper .panel-main .avail-spot table{
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+}
+.panel .panel-wrapper .panel-main .avail-spot table{
+  text-align: center;
+   border-radius: 0.4rem;
+}
+.panel .panel-wrapper .panel-main .avail-spot table th{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.panel .panel-wrapper .panel-main .avail-spot table .inhead{
+  padding: 1rem 2rem;
+  box-shadow: 0 5px 10px#e1e5ee;
+  background-color: rgb(113, 101, 186);
+  color: white;
+}
+.panel .panel-wrapper .panel-main .avail-spot table td{
+  padding: 1rem 2rem;
+}
+.panel .panel-wrapper .panel-main .avail-spot table .avail p{
+  background-color: #c8e6c9;
+  color: #388e3c;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+}
+.panel .panel-wrapper .panel-main .avail-spot table .notavail p{
+  background-color: #ffcdd2;
+  color: #c62828;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.panel .panel-wrapper .panel-main .btn-parking{
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+.panel .panel-wrapper .panel-main .btn-parking .upload,.scan{
+  width: 80%;
+  background-color: rgb(113, 101, 186);
+  color: white;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+.panel .panel-wrapper .panel-main .btn-parking .upload:focus,.scan:focus{
+  background-color: rgb(59, 41, 140);
+}
+
+.panel .panel-wrapper .parking-container .qr-upload{
+  padding: 12rem 2rem;
+  border: 2px dashed black;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.panel .panel-wrapper .parking-container .scan-qr{
+  padding: 12rem 2rem;
+  border: 2px dashed black;
+  border-radius: 0.8rem;
+  display: none;
+  text-align: center;
+}
+
+
+
